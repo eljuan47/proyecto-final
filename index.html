@@ -1,19 +1,25 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Juego de Piedra, Papel, Tijera</title>
-    <link rel="stylesheet" href="estilos.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="estilo.css">
+  <title>Adivina el Número</title>
 </head>
+
 <body>
-    <h1>Juego de Piedra, Papel, Tijera</h1>
-    <div class="contenedor">
-        <button id="piedra">Piedra</button>
-        <button id="papel">Papel</button>
-        <button id="tijera">Tijera</button>
-        <p id="resultado"></p>
-    </div>
-    <script src="juegos.js"></script>
+  <img class="" src="El_enigma.webp" alt="">
+  <div class="container">
+    <h1>Adivina el Número</h1>
+    <p>Estoy pensando en un número entre 1 y 100. Adivina el numero Batman</p>
+    <input type="number" id="guessInput" placeholder="Ingresa tu número" />
+    <button id="guessButton">Adivinar</button>
+    <p id="resultMessage"></p>
+    <button id="restartButton" style="display:none;">Jugar de nuevo</button>
+  </div>
+
+  <script src="juegos.js"></script>
 </body>
+
 </html>

@@ -1,28 +1,44 @@
 body {
   font-family: Arial, sans-serif;
-  text-align: center;
+  background-color: blueviolet;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
 }
 
-.contenedor {
-  width: 300px;
-  margin: 40px auto;
+.container {
+  text-align: center;
+  background-color: purple;
   padding: 20px;
-  border: 1px solid #ccc;
   border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  color: #ff6347; /* Tomato color */
+}
+
+input {
+  padding: 10px;
+  margin-top: 10px;
 }
 
 button {
-  width: 100px;
-  height: 50px;
-  margin: 10px;
+  padding: 10px 15px;
+  margin-top: 10px;
   border: none;
-  border-radius: 10px;
-  background-color: #4CAF50;
-  color: #fff;
+  border-radius: 5px;
+  background-color: #008cba; /* Blue color */
+  color: red;
   cursor: pointer;
 }
 
 button:hover {
-  background-color: #3e8e41;
+  background-color: #005f7f; /* Darker blue */
+}
+
+#resultMessage {
+  margin-top: 15px;
 }
